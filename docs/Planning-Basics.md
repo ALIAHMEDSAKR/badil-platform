@@ -1,3 +1,10 @@
-# Planning Basics
+# Planning Basics – Badil Project
 
-This document outlines the communication tools, repository setup, and task management approach for the Badil project.
+## Communication Channel
+Primary team communication: Discord.
+
+## Repository
+Private GitHub repository with write access granted to team members and instructor.
+
+## Task Management
+Trello will be used for task tracking and workflow management.
