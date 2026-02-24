@@ -1,0 +1,6 @@
+@Badil.API_HostAddress = http://localhost:5269
+
+GET {{Badil.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
