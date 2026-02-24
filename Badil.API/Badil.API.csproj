@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Badil.Application\Badil.Application.csproj" />
+    <ProjectReference Include="..\Badil.Infrastructure\Badil.Infrastructure.csproj" />
+    <ProjectReference Include="..\Badil.Presentation\Badil.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>
