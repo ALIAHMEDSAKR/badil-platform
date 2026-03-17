@@ -13,7 +13,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Badil.Application\Badil.Application.csproj" />
     <ProjectReference Include="..\Badil.Infrastructure\Badil.Infrastructure.csproj" />
-    <ProjectReference Include="..\Badil.Presentation\Badil.Presentation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

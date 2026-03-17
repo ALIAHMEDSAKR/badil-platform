@@ -1,4 +1,7 @@
 
+using Badil.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Badil.API
 {
     public class Program
@@ -13,6 +16,10 @@ namespace Badil.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<AppDbContext>( options => // Setup The Connection String for AppDbContext
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+                );
 
             var app = builder.Build();
 
