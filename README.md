@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Badil Project
 
 ## Overview
@@ -22,3 +23,7 @@ The repository is used for:
 This repository is private and accessible only to:
 - Project team members
 - Course instructor
+=======
+# Badil-BE
+An AI-powered industrial symbiosis marketplace facilitating waste-to-resource exchange for sustainable manufacturing.
+>>>>>>> 74999974122499ea60d5bf72cc49cddb3c54c395
