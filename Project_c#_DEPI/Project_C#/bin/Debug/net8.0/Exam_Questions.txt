@@ -1,0 +1,78 @@
+════════════════════════════════
+Logged at : 2026-02-24 02:10:44
+[Choose One] Q1
+Q: The Earth revolves around the Sun.  (Marks: 2)
+  - True ✓
+  - False
+
+════════════════════════════════
+Logged at : 2026-02-24 02:10:44
+[Choose One] Q2
+Q: Which planet is closest to the Sun?  (Marks: 4)
+  A) Earth
+  B) Mercury ✓
+  C) Venus
+  D) Mars
+
+════════════════════════════════
+Logged at : 2026-02-24 02:10:44
+[Choose All] Q3
+Q: Select all prime numbers.  (Marks: 6)
+  A) 2 ✓
+  B) 4
+  C) 7 ✓
+  D) 9
+  E) 11 ✓
+
+════════════════════════════════
+Logged at : 2026-02-24 02:11:24
+[Choose One] Q1
+Q: The Earth revolves around the Sun.  (Marks: 2)
+  - True ✓
+  - False
+
+════════════════════════════════
+Logged at : 2026-02-24 02:11:24
+[Choose One] Q2
+Q: Which planet is closest to the Sun?  (Marks: 4)
+  A) Earth
+  B) Mercury ✓
+  C) Venus
+  D) Mars
+
+════════════════════════════════
+Logged at : 2026-02-24 02:11:24
+[Choose All] Q3
+Q: Select all prime numbers.  (Marks: 6)
+  A) 2 ✓
+  B) 4
+  C) 7 ✓
+  D) 9
+  E) 11 ✓
+
+════════════════════════════════
+Logged at : 2026-02-24 02:12:44
+[Choose One] Q1
+Q: The Earth revolves around the Sun.  (Marks: 2)
+  - True ✓
+  - False
+
+════════════════════════════════
+Logged at : 2026-02-24 02:12:44
+[Choose One] Q2
+Q: Which planet is closest to the Sun?  (Marks: 4)
+  A) Earth
+  B) Mercury ✓
+  C) Venus
+  D) Mars
+
+════════════════════════════════
+Logged at : 2026-02-24 02:12:44
+[Choose All] Q3
+Q: Select all prime numbers.  (Marks: 6)
+  A) 2 ✓
+  B) 4
+  C) 7 ✓
+  D) 9
+  E) 11 ✓
+

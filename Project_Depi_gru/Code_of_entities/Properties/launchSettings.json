@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Code_of_entities": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

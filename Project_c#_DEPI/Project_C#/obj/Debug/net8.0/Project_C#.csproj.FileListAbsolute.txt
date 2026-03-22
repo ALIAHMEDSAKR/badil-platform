@@ -1,0 +1,15 @@
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.AssemblyInfoInputs.cache
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.AssemblyInfo.cs
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.csproj.CoreCompileInputs.cache
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.sourcelink.json
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\bin\Debug\net8.0\Project_C#.exe
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\bin\Debug\net8.0\Project_C#.deps.json
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\bin\Debug\net8.0\Project_C#.runtimeconfig.json
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\bin\Debug\net8.0\Project_C#.dll
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\bin\Debug\net8.0\Project_C#.pdb
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.dll
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\refint\Project_C#.dll
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.pdb
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\Project_C#.genruntimeconfig.cache
+C:\Users\bdalr\Project_c#_DEPI\Project_C#\obj\Debug\net8.0\ref\Project_C#.dll

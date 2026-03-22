@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\question_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:question_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\true_or_false_qusetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:true_or_false_qusetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\choose_all_qusetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:choose_all_qusetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\choose_one_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:choose_one_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\answer_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:answer_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|c:\\users\\bdalr\\project_c#_depi\\project_c#\\sorting_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5E90674-18E2-4B0B-8F6D-FA5D093C7211}|Project_C#.csproj|solutionrelative:sorting_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Choose_all_Qusetion.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Choose_all_Qusetion.cs",
+              "RelativeDocumentMoniker": "Choose_all_Qusetion.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Choose_all_Qusetion.cs",
+              "RelativeToolTip": "Choose_all_Qusetion.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:33:10.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "True_OR_False_qusetion.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\True_OR_False_qusetion.cs",
+              "RelativeDocumentMoniker": "True_OR_False_qusetion.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\True_OR_False_qusetion.cs",
+              "RelativeToolTip": "True_OR_False_qusetion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:15:57.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Question_list.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Question_list.cs",
+              "RelativeDocumentMoniker": "Question_list.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Question_list.cs",
+              "RelativeToolTip": "Question_list.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:42:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Subject.cs",
+              "RelativeDocumentMoniker": "Subject.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Subject.cs",
+              "RelativeToolTip": "Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:18:36.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Exam.cs",
+              "RelativeDocumentMoniker": "Exam.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Exam.cs",
+              "RelativeToolTip": "Exam.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:19:12.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PracticeExam.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\PracticeExam.cs",
+              "RelativeDocumentMoniker": "PracticeExam.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\PracticeExam.cs",
+              "RelativeToolTip": "PracticeExam.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:20:43.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinalExam.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\FinalExam.cs",
+              "RelativeDocumentMoniker": "FinalExam.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\FinalExam.cs",
+              "RelativeToolTip": "FinalExam.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:21:30.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Choose_One_Question.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Choose_One_Question.cs",
+              "RelativeDocumentMoniker": "Choose_One_Question.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Choose_One_Question.cs",
+              "RelativeToolTip": "Choose_One_Question.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:22:00.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Question.cs",
+              "RelativeDocumentMoniker": "Question.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Question.cs",
+              "RelativeToolTip": "Question.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:13:56.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Answer.cs",
+              "RelativeDocumentMoniker": "Answer.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Answer.cs",
+              "RelativeToolTip": "Answer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T23:20:13.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Answer_list.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Answer_list.cs",
+              "RelativeDocumentMoniker": "Answer_list.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Answer_list.cs",
+              "RelativeToolTip": "Answer_list.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T23:26:15.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:13:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "sorting_question.cs",
+              "DocumentMoniker": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\sorting_question.cs",
+              "RelativeDocumentMoniker": "sorting_question.cs",
+              "ToolTip": "C:\\Users\\bdalr\\Project_c#_DEPI\\Project_C#\\sorting_question.cs",
+              "RelativeToolTip": "sorting_question.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T11:07:28.974Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
