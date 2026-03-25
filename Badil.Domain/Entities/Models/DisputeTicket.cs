@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourProject.Domain.Entities.Models
+namespace Badil.Domain.Entities.Models
 {
    
 

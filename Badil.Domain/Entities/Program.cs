@@ -1,4 +1,4 @@
-﻿namespace YourProject.Domain.Entities
+﻿namespace Badil.Domain.Entities
 {
     internal class Program
     {

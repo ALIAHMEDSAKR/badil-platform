@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourProject.Domain.Entities", "YourProject.Domain.Entities.csproj", "{FE9C512E-621F-42E5-9D7D-711003D6036C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badil.Domain.Entities", "Badil.Domain.Entities.csproj", "{FE9C512E-621F-42E5-9D7D-711003D6036C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
