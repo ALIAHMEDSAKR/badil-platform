@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum UserRole
-    {
-        User,
-        Admin
-    }
+    
 
     public class AppUser : BaseAuditableEntity
     {

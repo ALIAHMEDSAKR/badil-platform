@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum DisputeStatus
-    {
-        Open,
-        UnderInvestigation,
-        Resolved
-    }
+   
 
     public class DisputeTicket : BaseAuditableEntity
     {

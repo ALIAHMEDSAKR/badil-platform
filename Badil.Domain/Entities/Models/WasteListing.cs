@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum ListingStatus
-    {
-        Draft,
-        Available,
-        Sold
-    }
+    
 
     public class WasteListing : BaseAuditableEntity
     {

@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum NotificationType
-    {
-        MatchFound,
-        MessageReceived,
-        TransactionUpdate,
-        SystemAlert
-    }
+    
 
     public class Notification : BaseAuditableEntity
     {

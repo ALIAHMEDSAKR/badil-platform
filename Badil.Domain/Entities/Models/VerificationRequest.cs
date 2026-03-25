@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum VerificationStatus
-    {
-        Pending,
-        Approved,
-        Rejected
-    }
+    
 
     public class VerificationRequest : BaseAuditableEntity
     {

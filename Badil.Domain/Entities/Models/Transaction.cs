@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 
 namespace YourProject.Domain.Entities.Models
 {
-    public enum EscrowStatus
-    {
-        AwaitingDeposit,
-        FundsLocked,
-        InTransit,
-        InspectionPeriod,
-        FundsReleased,
-        Disputed
-    }
+    
 
     public class Transaction : BaseAuditableEntity
     {
