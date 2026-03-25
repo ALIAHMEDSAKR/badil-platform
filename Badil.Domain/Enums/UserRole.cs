@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Badil.Domain.Entities.Enums
+namespace Badil.Domain.Enums
 {
     public enum User_Role
     {
