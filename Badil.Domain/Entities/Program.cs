@@ -1,4 +1,4 @@
-﻿namespace Code_of_entities
+﻿namespace YourProject.Domain.Entities
 {
     internal class Program
     {

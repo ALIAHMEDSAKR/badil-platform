@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Code_of_entities.Models
+namespace YourProject.Domain.Entities.Models
 {
     public class Company : BaseAuditableEntity
     {
