@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enums
+namespace Badil.Domain.Entities.Enums
 {
     public enum NotificationType
     {

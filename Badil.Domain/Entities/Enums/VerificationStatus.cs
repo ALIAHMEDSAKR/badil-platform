@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enums
+namespace Badil.Domain.Entities.Enums
 {
-    public enum User_Role
+    public enum VerificationStatus
     {
-        Admin = 1,
-        User = 2,
-        
+        Pending,
+        Approved,
+        Rejected
     }
-   
 }
