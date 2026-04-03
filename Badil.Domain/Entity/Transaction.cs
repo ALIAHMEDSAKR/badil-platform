@@ -11,6 +11,10 @@ namespace Badil.Domain.Entity
         public decimal AgreedPrice { get; set; }
         public EscrowStatus EscrowState { get; set; }
         public bool IsSampleRequest { get; set; }
+        public AppUser Buyer { get; set; }
+        public AppUser Seller { get; set; }
+        public WasteListing Listing { get; set; }
+        public DisputeTicket DisputeTicket { get; set; }
 
         public void LockFunds() { }
         public void ConfirmDelivery() { }

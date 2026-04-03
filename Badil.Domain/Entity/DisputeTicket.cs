@@ -10,6 +10,7 @@ namespace Badil.Domain.Entity
         public string Reason { get; set; }
         public DisputeStatus Status { get; set; }
         public string? AdminResolutionRemarks { get; set; }
+        public Transaction Transaction { get; set; }
 
         public void Resolve(string? remarks) { }
     }

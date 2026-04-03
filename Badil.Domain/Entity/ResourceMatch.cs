@@ -7,6 +7,8 @@ namespace Badil.Domain.Entity
         public Guid RequestId { get; set; }
         public double SemanticCompatibilityScore { get; set; }
         public double DistanceKm { get; set; }
+        public MaterialRequest Request { get; set; }
+        public WasteListing Listing { get; set; }
 
         // public IsViableMatch(threshold) { } is ? : Bool RT
     }

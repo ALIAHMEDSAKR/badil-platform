@@ -14,6 +14,9 @@ namespace Badil.Domain.Entity
         public decimal SuggestedPrice { get; set; }
         public ListingStatus Status { get; set; }
         public bool IsVisuallyValidated { get; set; }
+        public AppUser User { get; set; }
+        public ICollection<ResourceMatch> ResourceMatches { get; set; } = new List<ResourceMatch>();
+        public Transaction Transaction { get; set; }
 
         public void ApplyAITags(string[] tag) { } // is this an array ??
         public void MarkAsSold() { }
