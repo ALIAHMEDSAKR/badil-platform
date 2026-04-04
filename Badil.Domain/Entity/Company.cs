@@ -11,10 +11,14 @@ namespace Badil.Domain.Entity
         public bool IsVerified { get; set; }
         public string TaxRegistrationNumber { get; set; } //(رقم التسجيل الضريبي)
         public string CommercialRegisterNumber { get; set; } //(السجل التجاري)
-
+        public AppUser Owner { get; set; }
+        public ICollection<VerificationRequest> VerificationRequests { get; set; } = new List<VerificationRequest>();
 
         public void UpdateLocation(GeoLocation newLocation) { }
         public void MarkAsVerified() { }
+
+
+
 
     }
 }

@@ -9,5 +9,6 @@ namespace Badil.Domain.Entity
         public string Content { get; set; }
         public NotificationType Type { get; set; }
         public bool IsRead { get; set; }
+        public AppUser User { get; set; }
     }
 }

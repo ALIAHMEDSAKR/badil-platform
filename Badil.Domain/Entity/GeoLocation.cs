@@ -1,7 +1,7 @@
 ﻿
 namespace Badil.Domain.Entity
 {
-    public struct GeoLocation
+    public class GeoLocation
     {
         public double Latitude { get; set; }
         public double Longitude { get; set; }
@@ -11,5 +11,6 @@ namespace Badil.Domain.Entity
             Latitude = latitude;
             Longitude = longitude;
         }
+
     }
 }
