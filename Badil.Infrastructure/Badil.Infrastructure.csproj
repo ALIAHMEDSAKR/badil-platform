@@ -18,8 +18,4 @@
     <ProjectReference Include="..\Badil.Application\Badil.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Configurations\" />
-  </ItemGroup>
-
 </Project>
