@@ -8,7 +8,7 @@ namespace Badil.Domain.Entity
         public double TargetQuantity { get; set; }
         public double LocationPreferenceRadiusKm { get; set; }
         public AppUser User { get; set; }
-        public ICollection<ResourceMatch> ResourceMatches { get; set; } = new List<ResourceMatch>();
+        public ICollection<ResourceMatch>? ResourceMatches { get; set; } = new List<ResourceMatch>();
 
         public void UpdateRequirements(double qty, double radius) {}
 

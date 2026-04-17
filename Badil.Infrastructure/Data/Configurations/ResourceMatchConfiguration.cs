@@ -1,19 +1,15 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class ResourceMatchConfiguration : IEntityTypeConfiguration<ResourceMatch>
+    public class ResourceMatchConfiguration : BaseAuditableEntityConfiguration<ResourceMatch>
     {
-        public void Configure(EntityTypeBuilder<ResourceMatch> builder)
+        public override void Configure(EntityTypeBuilder<ResourceMatch> builder)
         {
-            builder.HasKey(r => r.Id);
+            base.Configure(builder);
 
             builder.Property(r => r.SemanticCompatibilityScore)
                 .IsRequired();

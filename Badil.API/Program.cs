@@ -1,5 +1,8 @@
 
+using Badil.Application.Common.Interfaces;
+using Badil.Domain.Entity;
 using Badil.Infrastructure.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Badil.API
@@ -21,6 +24,20 @@ namespace Badil.API
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
                 );
 
+            builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 8;
+                options.Password.RequireNonAlphanumeric = false;
+                options.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+
+            builder.Services.AddScoped<IAppDbContext>(provider =>
+                provider.GetRequiredService<AppDbContext>()
+            );
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -32,8 +49,8 @@ namespace Badil.API
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
-
 
             app.MapControllers();
 

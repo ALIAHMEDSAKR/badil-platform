@@ -1,19 +1,14 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class MaterialRequestConfiguration : IEntityTypeConfiguration<MaterialRequest>
+    public class MaterialRequestConfiguration : BaseAuditableEntityConfiguration<MaterialRequest>
     {
-        public void Configure(EntityTypeBuilder<MaterialRequest> builder)
+        public override void Configure(EntityTypeBuilder<MaterialRequest> builder)
         {
-            builder.HasKey(m => m.Id);
+            base.Configure(builder);
 
             builder.Property(m => m.MaterialType)
                 .IsRequired()

@@ -7,7 +7,7 @@ namespace Badil.Domain.Entity
     {
         public Guid TransactionId { get; set; }
         public Guid RaisedByUserId { get; set; }
-        public string Reason { get; set; }
+        public string? Reason { get; set; }
         public DisputeStatus Status { get; set; }
         public string? AdminResolutionRemarks { get; set; }
         public Transaction Transaction { get; set; }
