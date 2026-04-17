@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Badil.Domain.Interfaces;
 
 namespace Badil.Domain.Entity
 {
-    public abstract class BaseAuditableEntity
+    public abstract class BaseAuditableEntity : IAuditableEntity
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

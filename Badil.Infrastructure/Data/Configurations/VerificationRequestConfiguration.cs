@@ -1,20 +1,16 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Text.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class VerificationRequestConfiguration : IEntityTypeConfiguration<VerificationRequest>
+    public class VerificationRequestConfiguration : BaseAuditableEntityConfiguration<VerificationRequest>
     {
-        public void Configure(EntityTypeBuilder<VerificationRequest> builder)
+        public override void Configure(EntityTypeBuilder<VerificationRequest> builder)
         {
-            builder.HasKey(v => v.Id);
+            base.Configure(builder);
 
             // Convert List<string> to JSON
             builder.Property(v => v.DocumentUrls)

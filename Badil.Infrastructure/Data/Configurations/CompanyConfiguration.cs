@@ -1,19 +1,15 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class CompanyConfiguration : IEntityTypeConfiguration<Company>
+    public class CompanyConfiguration : BaseAuditableEntityConfiguration<Company>
     {
-        public void Configure(EntityTypeBuilder<Company> builder)
+        public override void Configure(EntityTypeBuilder<Company> builder)
         {
-            builder.HasKey(c => c.Id);
+            base.Configure(builder);
 
             builder.Property(c => c.Name)
                 .IsRequired()

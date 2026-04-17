@@ -1,19 +1,14 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class DisputeTicketConfiguration : IEntityTypeConfiguration<DisputeTicket>
+    public class DisputeTicketConfiguration : BaseAuditableEntityConfiguration<DisputeTicket>
     {
-        public void Configure(EntityTypeBuilder<DisputeTicket> builder)
+        public override void Configure(EntityTypeBuilder<DisputeTicket> builder)
         {
-            builder.HasKey(d => d.Id);
+            base.Configure(builder);
 
             builder.Property(d => d.RaisedByUserId)
                 .IsRequired();

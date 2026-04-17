@@ -18,7 +18,5 @@ namespace Badil.Domain.Entity
         public void MarkAsVerified() { }
 
 
-
-
     }
 }

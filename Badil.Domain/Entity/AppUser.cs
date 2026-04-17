@@ -1,15 +1,15 @@
 ﻿
 using Badil.Domain.Enum;
+using Badil.Domain.Interfaces;
+using Microsoft.AspNetCore.Identity;
 
 namespace Badil.Domain.Entity
 {
-    public class AppUser : BaseAuditableEntity
+    public class AppUser : IdentityUser<Guid>, IAuditableEntity
     {
-        public string Email { get; set; }
+        // Idenitity => Email, PhoneNumber, Id, PasswordHash
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string PhoneNumber { get; set; }
-        public string PasswordHash { get; set; }
         public UserRole Role { get; set; }
         public bool IsActive { get; set; }
         public Company Company { get; set; }
@@ -20,6 +20,10 @@ namespace Badil.Domain.Entity
         public ICollection<Message> ReceivedMessages { get; set; } = new List<Message>();
         public ICollection<Transaction> PurchasedTransactions { get; set; } = new List<Transaction>();
         public ICollection<Transaction> SoldTransactions { get; set; } = new List<Transaction>();
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public Guid CreatedBy { get; set; }
+        public Guid UpdatedBy { get; set; }
 
         public void DeactivateAccount() { }
 
