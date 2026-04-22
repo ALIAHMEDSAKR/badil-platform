@@ -1,5 +1,6 @@
 ﻿using Badil.Application.Common.Interfaces;
 using Badil.Domain.Entity;
+using Badil.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,16 +23,26 @@ namespace Badil.Application.Common.Repository
         public async Task AddAsync(MaterialRequest request, CancellationToken cancellationToken = default)
         {
             await _context.MaterialRequests.AddAsync(request, cancellationToken);
-            await _context.SaveChangesAsync(cancellationToken);
+        }
+
+        public async Task UpdateAsync(MaterialRequest request, CancellationToken cancellationToken = default)
+        {
+            _context.MaterialRequests.Update(request);
+            await Task.CompletedTask;
         }
 
         public async Task DeleteAsync(MaterialRequest request, CancellationToken cancellationToken = default)
         {
             _context.MaterialRequests.Remove(request);
-            await _context.SaveChangesAsync(cancellationToken);
+            await Task.CompletedTask;
         }
 
         public async Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default)
             => await _context.MaterialRequests.AnyAsync(x => x.Id == id, cancellationToken);
+
+        public async Task SaveAsync(CancellationToken cancellationToken = default)
+        {
+            await _context.SaveChangesAsync(cancellationToken);
+        }
     }
 }

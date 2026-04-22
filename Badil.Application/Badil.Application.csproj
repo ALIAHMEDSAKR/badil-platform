@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Common\Interfaces\Repository-interfaces\" />
     <Folder Include="Features\" />
   </ItemGroup>
 

@@ -1,6 +1,7 @@
 ﻿using Badil.Application.Common.Interfaces;
 using Badil.Domain.Entity;
 using Badil.Domain.Enum;
+using Badil.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,20 +34,30 @@ namespace Badil.Application.Common.Repository
 
         public async Task AddAsync(AppUser admin, CancellationToken cancellationToken = default)
         {
-            // UserManager handles user creation, so this is a hook for extra logic if needed.
+            await _context.Users.AddAsync(admin, cancellationToken);
+        }
+
+        public async Task UpdateAsync(AppUser admin, CancellationToken cancellationToken = default)
+        {
+            _context.Users.Update(admin);
             await Task.CompletedTask;
         }
 
         public async Task DeleteAsync(AppUser admin, CancellationToken cancellationToken = default)
         {
             _context.Users.Remove(admin);
-            await _context.SaveChangesAsync(cancellationToken);
+            await Task.CompletedTask;
         }
 
         public async Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default)
         {
             return await _context.Users
                 .AnyAsync(u => u.Id == id && u.Role == UserRole.Admin, cancellationToken);
+        }
+
+        public async Task SaveAsync(CancellationToken cancellationToken = default)
+        {
+            await _context.SaveChangesAsync(cancellationToken);
         }
     }
 }
