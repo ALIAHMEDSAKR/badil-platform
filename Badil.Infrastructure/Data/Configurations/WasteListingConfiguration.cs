@@ -5,7 +5,7 @@ using System.Text.Json;
 
 
 
-namespace Badil.Domain.Data.Configurations
+namespace Badil.Infrastructure.Data.Configurations
 {
     public class WasteListingConfiguration : BaseAuditableEntityConfiguration<WasteListing>
     {
@@ -26,9 +26,10 @@ namespace Badil.Domain.Data.Configurations
 
             // Convert List<string> to JSON
             builder.Property(w => w.ImageUrls)
+                   .IsRequired()
                    .HasConversion(
                         v => JsonSerializer.Serialize(v, (JsonSerializerOptions)null),
-                        v => JsonSerializer.Deserialize<List<string>>(v, (JsonSerializerOptions)null))
+                        v => JsonSerializer.Deserialize<List<string>>(v, (JsonSerializerOptions)null)!)
                    .HasColumnType("nvarchar(max)");
 
             builder.Property(w => w.SuggestedPrice)

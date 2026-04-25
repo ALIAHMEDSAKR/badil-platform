@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Text.Json;
 
 
-namespace Badil.Domain.Data.Configurations
+namespace Badil.Infrastructure.Data.Configurations
 {
     public class VerificationRequestConfiguration : BaseAuditableEntityConfiguration<VerificationRequest>
     {

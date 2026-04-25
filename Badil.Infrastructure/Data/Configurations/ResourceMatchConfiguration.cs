@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace Badil.Domain.Data.Configurations
+namespace Badil.Infrastructure.Data.Configurations
 {
     public class ResourceMatchConfiguration : BaseAuditableEntityConfiguration<ResourceMatch>
     {
@@ -23,12 +23,12 @@ namespace Badil.Domain.Data.Configurations
             builder.HasOne(r => r.Request)
                 .WithMany(m => m.ResourceMatches)
                 .HasForeignKey(r => r.RequestId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasOne(r => r.Listing)
                    .WithMany(w => w.ResourceMatches)
                    .HasForeignKey(r => r.ListingId)
-                   .OnDelete(DeleteBehavior.Cascade);
+                   .OnDelete(DeleteBehavior.Restrict);
 
             // Optional: prevent duplicate matches between same listing & request
             builder.HasIndex(r => new { r.ListingId, r.RequestId })
