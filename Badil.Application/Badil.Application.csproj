@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Common\Interfaces\Repository-interfaces\**" />
+    <EmbeddedResource Remove="Common\Interfaces\Repository-interfaces\**" />
+    <None Remove="Common\Interfaces\Repository-interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Badil.Domain\Badil.Domain.csproj" />
   </ItemGroup>
 

@@ -1,5 +1,6 @@
-
+using Badil.Infrastructure;
 using Badil.Application.Common.Interfaces;
+using Badil.Application.Common.Interfaces.Repositories;
 using Badil.Domain.Entity;
 using Badil.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
@@ -24,6 +25,7 @@ namespace Badil.API
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
                 );
 
+            builder.Services.AddInfrastructureServices(); // Add the infrastructure layer services
             builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
             {
                 options.Password.RequireDigit = true;
@@ -37,6 +39,7 @@ namespace Badil.API
             builder.Services.AddScoped<IAppDbContext>(provider =>
                 provider.GetRequiredService<AppDbContext>()
             );
+
 
             var app = builder.Build();
 
