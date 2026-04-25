@@ -1,19 +1,15 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class TransactionConfiguration : IEntityTypeConfiguration<Transaction>
+    public class TransactionConfiguration : BaseAuditableEntityConfiguration<Transaction>
     {
-        public void Configure(EntityTypeBuilder<Transaction> builder)
+        public override void Configure(EntityTypeBuilder<Transaction> builder)
         {
-            builder.HasKey(t => t.Id);
+            base.Configure(builder);
 
             builder.Property(t => t.AgreedPrice)
                 .HasColumnType("decimal(18,2)")

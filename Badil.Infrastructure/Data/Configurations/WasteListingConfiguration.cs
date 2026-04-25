@@ -1,20 +1,17 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
 using System.Text.Json;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class WasteListingConfiguration : IEntityTypeConfiguration<WasteListing>
+    public class WasteListingConfiguration : BaseAuditableEntityConfiguration<WasteListing>
     {
-        public void Configure(EntityTypeBuilder<WasteListing> builder)
+        public override void Configure(EntityTypeBuilder<WasteListing> builder)
         {
-            builder.HasKey(w => w.Id);
+            base.Configure(builder);
 
             builder.Property(w => w.MaterialType)
                    .IsRequired()

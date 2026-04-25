@@ -1,4 +1,4 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class MessageConfiguration : IEntityTypeConfiguration<Message>
+    public class MessageConfiguration : BaseAuditableEntityConfiguration<Message>
     {
-        public void Configure(EntityTypeBuilder<Message> builder)
+        public override void Configure(EntityTypeBuilder<Message> builder)
         {
-            builder.HasKey(m => m.Id);
+            base.Configure(builder);
 
             builder.Property(m => m.Content)
                 .IsRequired()

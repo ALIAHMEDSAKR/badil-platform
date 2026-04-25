@@ -1,19 +1,15 @@
-﻿using Badil.Domain.Entity;
+using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Badil.Domain.Data.Configurations
 {
-    public class NotificationConfiguration : IEntityTypeConfiguration<Notification>
+    public class NotificationConfiguration : BaseAuditableEntityConfiguration<Notification>
     {
-        public void Configure(EntityTypeBuilder<Notification> builder)
+        public override void Configure(EntityTypeBuilder<Notification> builder)
         {
-            builder.HasKey(n => n.Id);
+            base.Configure(builder);
 
             builder.Property(n => n.Content)
                 .IsRequired()
