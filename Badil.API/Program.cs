@@ -1,5 +1,6 @@
-
+using Badil.Infrastructure;
 using Badil.Application.Common.Interfaces;
+using Badil.Application.Common.Interfaces.Repositories;
 using Badil.Domain.Entity;
 using Badil.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
@@ -24,6 +25,7 @@ namespace Badil.API
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
                 );
 
+            builder.Services.AddInfrastructureServices(); // Add the infrastructure layer services
             builder.Services.AddIdentity<AppUser, IdentityRole<Guid>>(options =>
             {
                 options.Password.RequireDigit = true;
@@ -37,18 +39,6 @@ namespace Badil.API
             builder.Services.AddScoped<IAppDbContext>(provider =>
                 provider.GetRequiredService<AppDbContext>()
             );
-
-
-            builder.Services.AddScoped<IAdminRepository, AdminRepository>();
-            builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
-            builder.Services.AddScoped<IMaterialRequestRepository, MaterialRequestRepository>();
-            builder.Services.AddScoped<IMessageRepository, MessageRepository>();
-            builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
-            builder.Services.AddScoped<IResourceMatchRepository, ResourceMatchRepository>();
-            builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
-            builder.Services.AddScoped<IDisputeTicketRepository, DisputeTicketRepository>();
-            builder.Services.AddScoped<IVerificationRequestRepository, VerificationRequestRepository>();
-            builder.Services.AddScoped<IWasteListingRepository, WasteListingRepository>();
 
 
             var app = builder.Build();

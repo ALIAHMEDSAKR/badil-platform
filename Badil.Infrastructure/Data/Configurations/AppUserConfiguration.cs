@@ -10,9 +10,9 @@ namespace Badil.Domain.Data.Configurations
         {
             base.Configure(builder);
 
-            builder.Property((au) => au.Email)
-                   .IsRequired()
-                   .HasMaxLength(256);
+            //builder.Property((au) => au.Email)
+            //       .IsRequired()
+            //       .HasMaxLength(256);
 
             builder.Property((au) => au.FirstName)
                    .IsRequired()
@@ -22,11 +22,11 @@ namespace Badil.Domain.Data.Configurations
                    .IsRequired()
                    .HasMaxLength(100);
 
-            builder.Property((au) => au.PhoneNumber)
-                   .HasMaxLength(20);
+            //builder.Property((au) => au.PhoneNumber)
+            //       .HasMaxLength(20);
 
-            builder.Property((au) => au.PasswordHash)
-                   .IsRequired();
+            //builder.Property((au) => au.PasswordHash)
+            //       .IsRequired();
 
             builder.Property((au) => au.Role)
                    .IsRequired()

@@ -1,13 +1,18 @@
 ﻿using Badil.Domain.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Badil.Application.Common.Interfaces
+namespace Badil.Application.Common.Interfaces.Repositories
 {
-    public interface IAdminRepository
+    public interface IGenericRepository<T> where T : class
+    {
+        Task<T?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+        Task<IReadOnlyList<T>> GetAllAsync(CancellationToken cancellationToken = default);
+        Task AddAsync(T entity, CancellationToken cancellationToken = default);
+        Task UpdateAsync(T entity, CancellationToken cancellationToken = default);
+        Task DeleteAsync(T entity, CancellationToken cancellationToken = default);
+        Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default);
+    }
+    /*
+      public interface IAdminRepository
     {
         Task<AppUser?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
         Task<IReadOnlyList<AppUser>> GetAllAdminsAsync(CancellationToken cancellationToken = default);
@@ -96,4 +101,5 @@ namespace Badil.Application.Common.Interfaces
         Task DeleteAsync(WasteListing listing, CancellationToken cancellationToken = default);
         Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default);
     }
+     */
 }
