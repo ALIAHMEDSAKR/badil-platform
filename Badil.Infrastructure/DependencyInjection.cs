@@ -1,6 +1,8 @@
 ﻿
+using Badil.Application.Common.Interfaces;
 using Badil.Application.Common.Interfaces.Repositories;
 using Badil.Infrastructure.Repositories;
+using Badil.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Badil.Infrastructure
@@ -20,6 +22,9 @@ namespace Badil.Infrastructure
            services.AddScoped<IDisputeTicketRepository, DisputeTicketRepository>();
            services.AddScoped<IVerificationRequestRepository, VerificationRequestRepository>();
            services.AddScoped<IWasteListingRepository, WasteListingRepository>();
+
+           services.AddScoped<IFileService, FileService>();
+           services.AddScoped<ITokenService, TokenService>();
 
             return services;
         }
