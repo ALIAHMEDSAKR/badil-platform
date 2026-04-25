@@ -38,6 +38,19 @@ namespace Badil.API
                 provider.GetRequiredService<AppDbContext>()
             );
 
+
+            builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+            builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+            builder.Services.AddScoped<IMaterialRequestRepository, MaterialRequestRepository>();
+            builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+            builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+            builder.Services.AddScoped<IResourceMatchRepository, ResourceMatchRepository>();
+            builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+            builder.Services.AddScoped<IDisputeTicketRepository, DisputeTicketRepository>();
+            builder.Services.AddScoped<IVerificationRequestRepository, VerificationRequestRepository>();
+            builder.Services.AddScoped<IWasteListingRepository, WasteListingRepository>();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
