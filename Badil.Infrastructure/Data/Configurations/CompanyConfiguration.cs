@@ -1,9 +1,10 @@
+
 using Badil.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 
-namespace Badil.Domain.Data.Configurations
+namespace Badil.Infrastructure.Data.Configurations
 {
     public class CompanyConfiguration : BaseAuditableEntityConfiguration<Company>
     {
