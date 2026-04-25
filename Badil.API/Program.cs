@@ -1,8 +1,10 @@
-using Badil.Infrastructure;
 using Badil.Application.Common.Interfaces;
+using Badil.Application;
 using Badil.Application.Common.Interfaces.Repositories;
 using Badil.Domain.Entity;
+using Badil.Infrastructure;
 using Badil.Infrastructure.Data;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -40,6 +42,7 @@ namespace Badil.API
                 provider.GetRequiredService<AppDbContext>()
             );
 
+            builder.Services.AddMediatR(typeof(ApplicationAssemblyMarker).Assembly);
 
             var app = builder.Build();
 
